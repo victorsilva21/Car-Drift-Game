@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FaseBackup.unity
+    path: Assets/Scenes/Menu Inicial.unity
+    guid: d1f0bdeb02dd7a744a424d0fa45469d1
+  - enabled: 1
+    path: Assets/Scenes/FaseDefinitiva.unity
     guid: 2e67ccdccb9f6b845b1f5e53e9da570f
   m_configObjects: {}
