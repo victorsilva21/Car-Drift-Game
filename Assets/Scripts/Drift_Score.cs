@@ -22,15 +22,20 @@ public class Drift_Score : MonoBehaviour
     void Update()
     {
         Drift_Modifier();
-        DriftPoint();
-        DriftMultiplyier();
+
+
         HUDUpdate();
+    }
+    private void FixedUpdate()
+    {
+        DriftMultiplyier();
+        DriftPoint();
     }
     void DriftPoint()
     {
         if (drifting)
         {
-            score += 1 * drift_multiplyier;
+            score += 5 * drift_multiplyier;
         }
     }
     void DriftMultiplyier()
